@@ -7,7 +7,6 @@ public class Model {
     private double[] valuesX;
     private double[] valuesY;
 
-
     private double[] calculateFunctionValues(double[] xCoords) {
         double x, y;
         for (int i = 0; i < xCoords.length; i++) {

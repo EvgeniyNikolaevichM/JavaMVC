@@ -10,6 +10,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 
+
 public class View {
     private TableView<TableValue> table = new TableView<TableValue>();
     private XYChart.Series series = new XYChart.Series();
@@ -70,7 +71,6 @@ public class View {
         table.getColumns().add(y);
     }
 
-
     public Button getBtAdd() {
         return btAdd;
     }
@@ -96,5 +96,3 @@ public class View {
         return label;
     }
 }
-
-    

@@ -27,6 +27,4 @@ public class TableValue {
     public void setY(double y) {
         this.y = y;
     }
-
 }
-    
